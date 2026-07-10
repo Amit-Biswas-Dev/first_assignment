@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    padding : 20px;
+    align-items: center;
+    border: 2px solid black;
+
+}
+.first_nav{
+    display: flex;
+    gap : 5px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap : 10px;
+    color: #575757;
+}
+
+.common_button{
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+}
