@@ -54,3 +54,27 @@ ul{
 .hero_content button{
     margin-top: 380px;
 }
+
+
+.about_peoples{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    padding : 30px;
+    margin: 30px;
+
+}
+
+.about_peoples div{
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+.speakers{
+    text-align: center;
+    padding-top: 45px;
+}
+.about_peoples img{
+    width:  100%;
+    height: auto;
+    object-fit: cover;
+}
