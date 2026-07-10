@@ -30,3 +30,27 @@ ul{
     padding: 10px;
     border-radius: 10px;
 }
+
+
+.hero_section{
+    background-image: url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 850px;
+
+}
+
+.hero_content{
+    padding-top: 200px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero_content button{
+    margin-top: 380px;
+}
