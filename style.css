@@ -6,15 +6,16 @@ nav{
     display: flex;
     justify-content: space-around;
     background-color: #FFFFFF;
-    padding : 20px;
+    padding : 15px;
     align-items: center;
-    border: 2px solid black;
+    
 
 }
 .first_nav{
     display: flex;
-    gap : 5px;
-    
+}
+.first_nav img{
+    width: 100%;
 }
 nav ul{
     display: flex;
@@ -33,13 +34,15 @@ nav ul{
 
 
 .hero_section{
-    background-image: url("./assets/banner.jpg");
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("./assets/banner.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 850px;
 
 }
+
 
 .hero_content{
     padding-top: 200px;
@@ -49,6 +52,10 @@ nav ul{
     align-items: center;
     flex-direction: column;
     text-align: center;
+   
+}
+.hero_content h1{
+    font-weight: 900;
 }
 
 .hero_content button{
@@ -105,10 +112,55 @@ nav ul{
 
 .card div li{
     padding: 5px;
+    color: #333333;
 }
 
 .card div button{
     margin: 10px;
     width:320px;
     padding: 10px;
+}
+
+.card_section{
+    margin-top: 40px;
+   text-align: center;
+}
+.card_section h1{
+    padding: 20px;
+    font-weight: bold;
+}
+
+.card_section p{
+    color: #888888;
+}
+
+.middle_card{
+    background-color: #0D1B2A !important;
+    color: #FFFFFF !important;
+}
+.middle_card li{
+    color: #FFFFFF !important;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+}
+
+.footer_first{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+}
+.footer_last{
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+    align-items: center;
 }
